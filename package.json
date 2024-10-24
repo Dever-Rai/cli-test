@@ -1,0 +1,21 @@
+{
+	"name": "cli-test",
+	"version": "1.0.0",
+	"description": "cli test",
+	"main": "index.js",
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"cli": "./index.js",
+		"dever-design": "./add.js"
+	},
+	"dependencies": {
+		"@inquirer/prompts": "^7.0.0",
+		"axios": "^1.7.7",
+		"commander": "^12.1.0",
+		"fs-extra": "^11.2.0"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
